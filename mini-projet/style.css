@@ -13,6 +13,10 @@ header{
     position: fixed;
     z-index:3;
 }
+header ul li a{
+    text-decoration:none;
+    color:white;
+}
 nav{
     height:100%;
     background-color:#D52A54;
@@ -208,7 +212,7 @@ background-color:#0000FF;
     width:100%;
     position:absolute;
     top:295vh;
-background-color:red;
+background-color:white;
 }
 #sec4 article ul{
  height:100%;
@@ -217,11 +221,11 @@ background-color:red;
 #sec4 article{
     position:absolute;
     top:36%;
-    left:5%;
+    left:3%;
     
     
     
-    width:25%;
+    width:22%;
     height:40%;
     background-color:white;
     border-radius:3%;
@@ -243,11 +247,19 @@ background-color:red;
     height:20%;
     top:20%;
     left:15%;
+    width:100%;
     
 }
 #sec4 li:nth-child(3){
     height:40%;
     top:38%;
+    width:90%;
+    left:24%;
+}
+
+#sec4 li:nth-child(4){
+    height:40%;
+    top:48%;
     width:90%;
     left:5%;
 }
@@ -255,3 +267,106 @@ background-color:red;
   position:absolute;  
   list-style:none
 }
+#sec4 article:nth-child(2){
+    
+    left:26%;
+}
+#sec4 article:nth-child(3){
+    
+    left:49%;
+}
+#sec4 article:nth-child(4){
+    
+    left:72%;
+}
+#sec4 h2{
+    position:absolute;
+    left:42%;
+    font-size:44px;
+}
+#sec5{
+    height:95vh;
+    width:100%;
+    position:absolute;
+    top:395vh;
+background-color:#326584;
+}
+
+
+#sec5 h2{
+    
+    font-size:50px;
+    position:absolute;
+    left:38%;
+    top:9%;
+    color:white;
+}
+
+#droite li {
+    position:absolute;
+    list-style:none;
+    color:white;
+}
+
+#droite li:nth-child(1){
+    top:33%;
+    left:10%;
+}
+#droite li:nth-child(2){
+    top:40%;
+    left:10%;
+    font-weight:bold;
+    font-size:24px;
+}
+#droite li:nth-child(3){
+    top:47%;
+    left:10%;
+}
+#droite li:nth-child(4){
+    top:54%;
+    left:10%;
+}
+#droite li:nth-child(5){
+    top:61%;
+    left:10%;
+}
+
+#gauche h2{
+    position:absolute;
+    left:52%;
+    top:30%;
+    font-size:24px;
+}
+form label,input{
+    position:absolute;
+}
+form label:nth-child(1){
+    left:54%;
+    top:44%;
+}
+form input:nth-of-type(1){
+    left:54%;
+    top:48%;
+}
+form label:nth-child(3){
+    left:54%;
+    top:54%;
+}
+form input:nth-of-type(2){
+    left:54%;
+    top:58%;
+}
+form label:nth-child(5){
+    left:54%;
+    top:63%;
+}
+form input:nth-of-type(3){
+    left:54%;
+    top:68%;
+}
+form label:nth-child(7){
+    left:54%;
+    top:73%;
+}
+
+
