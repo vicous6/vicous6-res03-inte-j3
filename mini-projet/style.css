@@ -1,0 +1,257 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin:0;
+    padding:0;
+   
+}
+header{
+    width:100%;
+    height:8vh;
+    position: fixed;
+    z-index:3;
+}
+nav{
+    height:100%;
+    background-color:#D52A54;
+    
+}
+ul {
+    
+    padding:0;
+    margin:0;
+}
+nav li{
+    list-style-type:none;
+    color:white;
+}
+nav li:nth-child(1){
+    position:absolute;
+    left:15%;
+    top:30%;
+}
+nav li:nth-child(2){
+    position:absolute;
+    left:28%;
+    top:30%;
+}
+nav li:nth-child(3){
+    position:absolute;
+    left:42%;
+    top:30%;
+}
+nav li:nth-child(4){
+    position:absolute;
+    left:56%;
+    top:30%;
+}
+
+nav li:nth-child(5){
+    position:absolute;
+    left:69%;
+    top:30%;
+}
+
+#sec1{
+    height:100vh;
+    width:99%;
+    background-image:url(teacher.jpeg);
+    background-size:cover;
+    position:absolute;
+    
+}
+h1{
+    width:70%;
+    height:20%;
+    font-size:80px;
+    position:absolute;
+    left:12%;
+    top:26%;
+    color:white;
+}
+#sec1 h2{
+    width:80%;
+    height:20%;
+    font-size:50px;
+    position:absolute;
+    left:12%;
+    top:44%;
+    color:white;
+}
+span{
+    color:rgb(213,42,84);
+}
+#sec2{
+    height:100vh;
+    width:100%;
+    position:absolute;
+    top:100vh;
+background-color:white;
+}
+
+#sec2 > h2{
+     font-size:45px;
+     position:absolute;
+     left:35%;
+}
+#sec2 p{
+    width:30%;
+    position:absolute;
+}
+#sec2 p:nth-child(2){
+    
+    left:15%;
+    top:20%;
+       
+}
+#sec2 p:nth-child(3){
+    
+    left:15%;
+    top:50%;
+       
+}
+#sec2 p:nth-child(4){
+    
+    left:50%;
+    top:20%;
+       
+}
+#sec2 p:nth-child(5){
+    
+    left:50%;
+    top:50%;
+       
+}
+
+#sec3{
+    height:95vh;
+    width:100%;
+    position:absolute;
+    top:200vh;
+background-color:#0000FF;
+}
+
+#sec3 h2{
+    
+    position:absolute;
+    left:43%;
+    font-size:44px;
+    top:10%;
+    color:white;
+}
+#sec3 article{
+    position:absolute;
+    top:36%;
+    left:6%;
+    
+    
+    
+    width:25%;
+    height:40%;
+    background-color:white;
+    border-radius:3%;
+   
+    box-shadow: 4px 4px 5px 2px #000000;
+}
+#sec3 article ul{
+ height:100%;
+}
+
+
+#sec3 li img{
+    
+    width:100%;
+    height:100%;
+    border-radius:4% 4% 0% 0%;
+}
+
+#sec3 li{
+    position:absolute;
+    width:100%;
+    list-style: none;
+}
+
+#sec3 h3{
+    position:absolute;
+    width:100%;
+    z-index:1000;
+    color:white;
+    left:33%;
+}
+#sec3 li:nth-child(1){
+    height:30%;
+}
+#sec3 li:nth-child(2){
+    height:30%;
+    
+}
+#sec3 li:nth-child(3){
+    height:40%;
+    top:38%;
+    width:90%;
+    left:5%;
+}
+
+
+#sec3 article:nth-child(3){
+    left:35%;
+}
+
+#sec3 article:nth-child(4){
+    left:65%;
+}
+
+#sec4{
+    height:95vh;
+    width:100%;
+    position:absolute;
+    top:295vh;
+background-color:red;
+}
+#sec4 article ul{
+ height:100%;
+}
+
+#sec4 article{
+    position:absolute;
+    top:36%;
+    left:5%;
+    
+    
+    
+    width:25%;
+    height:40%;
+    background-color:white;
+    border-radius:3%;
+   
+    box-shadow: 4px 4px 5px 2px #000000;
+}
+
+#sec4 li img{
+   position:absolute;
+    height:150%;
+    left:30%;
+    
+}
+#sec4 li:nth-child(1){
+    height:20%;
+    left:35%;
+}
+#sec4 li:nth-child(2){
+    height:20%;
+    top:20%;
+    left:15%;
+    
+}
+#sec4 li:nth-child(3){
+    height:40%;
+    top:38%;
+    width:90%;
+    left:5%;
+}
+#sec4  li{
+  position:absolute;  
+  list-style:none
+}
